@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Location_Alaram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="0p4-KC-who">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="UNKNOWN" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nvo-FW-JkJ">
+                                <rect key="frame" x="0.0" y="137" width="600" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Iin-1E-Kjv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0p4-KC-who" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2KN-fy-HzG"/>
+                            <constraint firstItem="0p4-KC-who" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Sjz-Lu-IFZ"/>
+                            <constraint firstItem="nvo-FW-JkJ" firstAttribute="top" secondItem="0p4-KC-who" secondAttribute="top" id="Xkj-ks-6pH"/>
+                            <constraint firstItem="0p4-KC-who" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZRj-CI-uAQ"/>
+                            <constraint firstItem="nvo-FW-JkJ" firstAttribute="leading" secondItem="0p4-KC-who" secondAttribute="leading" id="cOx-De-Xmw"/>
+                            <constraint firstItem="0p4-KC-who" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gjq-VC-2k8"/>
+                            <constraint firstItem="0p4-KC-who" firstAttribute="top" secondItem="nvo-FW-JkJ" secondAttribute="bottom" constant="-197" id="kAZ-N3-imC"/>
+                            <constraint firstItem="nvo-FW-JkJ" firstAttribute="trailing" secondItem="0p4-KC-who" secondAttribute="trailing" id="twM-Iz-BA5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Xkj-ks-6pH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="0p4-KC-who" id="zCE-FJ-4aL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="303"/>
+        </scene>
+    </scenes>
+</document>

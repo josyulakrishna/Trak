@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80CA14041D1012330055A330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA14031D1012330055A330 /* AppDelegate.swift */; };
+		80CA14061D1012330055A330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA14051D1012330055A330 /* ViewController.swift */; };
+		80CA14091D1012330055A330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CA14071D1012330055A330 /* Main.storyboard */; };
+		80CA140C1D1012330055A330 /* Location_Alaram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80CA140A1D1012330055A330 /* Location_Alaram.xcdatamodeld */; };
+		80CA140E1D1012330055A330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CA140D1D1012330055A330 /* Assets.xcassets */; };
+		80CA14111D1012330055A330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CA140F1D1012330055A330 /* LaunchScreen.storyboard */; };
+		80CA141C1D1012330055A330 /* Location_AlaramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA141B1D1012330055A330 /* Location_AlaramTests.swift */; };
+		80CA14271D1012330055A330 /* Location_AlaramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CA14261D1012330055A330 /* Location_AlaramUITests.swift */; };
+		80CA14371D1023270055A330 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CA14361D1023270055A330 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CA14181D1012330055A330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CA13F81D1012320055A330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CA13FF1D1012330055A330;
+			remoteInfo = "Location Alaram";
+		};
+		80CA14231D1012330055A330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80CA13F81D1012320055A330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CA13FF1D1012330055A330;
+			remoteInfo = "Location Alaram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80CA14001D1012330055A330 /* Location Alaram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Alaram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA14031D1012330055A330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CA14051D1012330055A330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CA14081D1012330055A330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CA140B1D1012330055A330 /* Location_Alaram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Location_Alaram.xcdatamodel; sourceTree = "<group>"; };
+		80CA140D1D1012330055A330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80CA14101D1012330055A330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80CA14121D1012330055A330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CA14171D1012330055A330 /* Location AlaramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AlaramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA141B1D1012330055A330 /* Location_AlaramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AlaramTests.swift; sourceTree = "<group>"; };
+		80CA141D1D1012330055A330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CA14221D1012330055A330 /* Location AlaramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AlaramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CA14261D1012330055A330 /* Location_AlaramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AlaramUITests.swift; sourceTree = "<group>"; };
+		80CA14281D1012330055A330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CA14361D1023270055A330 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CA13FD1D1012330055A330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA14371D1023270055A330 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA14141D1012330055A330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA141F1D1012330055A330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80CA13F71D1012320055A330 = {
+			isa = PBXGroup;
+			children = (
+				80CA14361D1023270055A330 /* MapKit.framework */,
+				80CA14021D1012330055A330 /* Location Alaram */,
+				80CA141A1D1012330055A330 /* Location AlaramTests */,
+				80CA14251D1012330055A330 /* Location AlaramUITests */,
+				80CA14011D1012330055A330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80CA14011D1012330055A330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CA14001D1012330055A330 /* Location Alaram.app */,
+				80CA14171D1012330055A330 /* Location AlaramTests.xctest */,
+				80CA14221D1012330055A330 /* Location AlaramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CA14021D1012330055A330 /* Location Alaram */ = {
+			isa = PBXGroup;
+			children = (
+				80CA14031D1012330055A330 /* AppDelegate.swift */,
+				80CA14051D1012330055A330 /* ViewController.swift */,
+				80CA14071D1012330055A330 /* Main.storyboard */,
+				80CA140D1D1012330055A330 /* Assets.xcassets */,
+				80CA140F1D1012330055A330 /* LaunchScreen.storyboard */,
+				80CA14121D1012330055A330 /* Info.plist */,
+				80CA140A1D1012330055A330 /* Location_Alaram.xcdatamodeld */,
+			);
+			path = "Location Alaram";
+			sourceTree = "<group>";
+		};
+		80CA141A1D1012330055A330 /* Location AlaramTests */ = {
+			isa = PBXGroup;
+			children = (
+				80CA141B1D1012330055A330 /* Location_AlaramTests.swift */,
+				80CA141D1D1012330055A330 /* Info.plist */,
+			);
+			path = "Location AlaramTests";
+			sourceTree = "<group>";
+		};
+		80CA14251D1012330055A330 /* Location AlaramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80CA14261D1012330055A330 /* Location_AlaramUITests.swift */,
+				80CA14281D1012330055A330 /* Info.plist */,
+			);
+			path = "Location AlaramUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CA13FF1D1012330055A330 /* Location Alaram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA142B1D1012330055A330 /* Build configuration list for PBXNativeTarget "Location Alaram" */;
+			buildPhases = (
+				80CA13FC1D1012330055A330 /* Sources */,
+				80CA13FD1D1012330055A330 /* Frameworks */,
+				80CA13FE1D1012330055A330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Location Alaram";
+			productName = "Location Alaram";
+			productReference = 80CA14001D1012330055A330 /* Location Alaram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80CA14161D1012330055A330 /* Location AlaramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA142E1D1012330055A330 /* Build configuration list for PBXNativeTarget "Location AlaramTests" */;
+			buildPhases = (
+				80CA14131D1012330055A330 /* Sources */,
+				80CA14141D1012330055A330 /* Frameworks */,
+				80CA14151D1012330055A330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CA14191D1012330055A330 /* PBXTargetDependency */,
+			);
+			name = "Location AlaramTests";
+			productName = "Location AlaramTests";
+			productReference = 80CA14171D1012330055A330 /* Location AlaramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80CA14211D1012330055A330 /* Location AlaramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CA14311D1012330055A330 /* Build configuration list for PBXNativeTarget "Location AlaramUITests" */;
+			buildPhases = (
+				80CA141E1D1012330055A330 /* Sources */,
+				80CA141F1D1012330055A330 /* Frameworks */,
+				80CA14201D1012330055A330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80CA14241D1012330055A330 /* PBXTargetDependency */,
+			);
+			name = "Location AlaramUITests";
+			productName = "Location AlaramUITests";
+			productReference = 80CA14221D1012330055A330 /* Location AlaramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CA13F81D1012320055A330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Josyula Gopala Krishna";
+				TargetAttributes = {
+					80CA13FF1D1012330055A330 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					80CA14161D1012330055A330 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 80CA13FF1D1012330055A330;
+					};
+					80CA14211D1012330055A330 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 80CA13FF1D1012330055A330;
+					};
+				};
+			};
+			buildConfigurationList = 80CA13FB1D1012320055A330 /* Build configuration list for PBXProject "Location Alaram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CA13F71D1012320055A330;
+			productRefGroup = 80CA14011D1012330055A330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CA13FF1D1012330055A330 /* Location Alaram */,
+				80CA14211D1012330055A330 /* Location AlaramUITests */,
+				80CA14161D1012330055A330 /* Location AlaramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CA13FE1D1012330055A330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA14111D1012330055A330 /* LaunchScreen.storyboard in Resources */,
+				80CA140E1D1012330055A330 /* Assets.xcassets in Resources */,
+				80CA14091D1012330055A330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA14151D1012330055A330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA14201D1012330055A330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CA13FC1D1012330055A330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA140C1D1012330055A330 /* Location_Alaram.xcdatamodeld in Sources */,
+				80CA14061D1012330055A330 /* ViewController.swift in Sources */,
+				80CA14041D1012330055A330 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA14131D1012330055A330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA141C1D1012330055A330 /* Location_AlaramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80CA141E1D1012330055A330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CA14271D1012330055A330 /* Location_AlaramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80CA14191D1012330055A330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CA13FF1D1012330055A330 /* Location Alaram */;
+			targetProxy = 80CA14181D1012330055A330 /* PBXContainerItemProxy */;
+		};
+		80CA14241D1012330055A330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80CA13FF1D1012330055A330 /* Location Alaram */;
+			targetProxy = 80CA14231D1012330055A330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80CA14071D1012330055A330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA14081D1012330055A330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80CA140F1D1012330055A330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CA14101D1012330055A330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CA14291D1012330055A330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80CA142A1D1012330055A330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CA142C1D1012330055A330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Location Alaram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.app.me.Location-Alaram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80CA142D1D1012330055A330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Location Alaram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.app.me.Location-Alaram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80CA142F1D1012330055A330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Location AlaramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.app.me.Location-AlaramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Location Alaram.app/Location Alaram";
+			};
+			name = Debug;
+		};
+		80CA14301D1012330055A330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Location AlaramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.app.me.Location-AlaramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Location Alaram.app/Location Alaram";
+			};
+			name = Release;
+		};
+		80CA14321D1012330055A330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Location AlaramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.app.me.Location-AlaramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Location Alaram";
+			};
+			name = Debug;
+		};
+		80CA14331D1012330055A330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Location AlaramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fm.app.me.Location-AlaramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Location Alaram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CA13FB1D1012320055A330 /* Build configuration list for PBXProject "Location Alaram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA14291D1012330055A330 /* Debug */,
+				80CA142A1D1012330055A330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CA142B1D1012330055A330 /* Build configuration list for PBXNativeTarget "Location Alaram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA142C1D1012330055A330 /* Debug */,
+				80CA142D1D1012330055A330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CA142E1D1012330055A330 /* Build configuration list for PBXNativeTarget "Location AlaramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA142F1D1012330055A330 /* Debug */,
+				80CA14301D1012330055A330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80CA14311D1012330055A330 /* Build configuration list for PBXNativeTarget "Location AlaramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA14321D1012330055A330 /* Debug */,
+				80CA14331D1012330055A330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80CA140A1D1012330055A330 /* Location_Alaram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80CA140B1D1012330055A330 /* Location_Alaram.xcdatamodel */,
+			);
+			currentVersion = 80CA140B1D1012330055A330 /* Location_Alaram.xcdatamodel */;
+			path = Location_Alaram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80CA13F81D1012320055A330 /* Project object */;
+}
